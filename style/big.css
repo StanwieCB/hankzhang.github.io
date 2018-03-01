@@ -43,13 +43,8 @@ color:#000;
 }
 
 @font-face {
-	font-family:"Freehand575 BT";
-	src: url(Freeh575.ttf);
-}
-
-@font-face {
-	font-family:"Glowworm";
-	src: url(GLOWWORM.ttf);
+	font-family:"Oswald";
+	src: url(Oswald-Regular.ttf);
 }
 
 h1 {
@@ -57,21 +52,22 @@ h1 {
 	font-family: 'Oswald';
 	text-transform: uppercase;
 	font-weight:bold;
-	font-size:60px;
+	font-size:50px;
 	
 }
 
 h2 {
 	color:#666666;
 	font-family: 'Oswald';
-	font-size:30px;
+	font-size:25px;
 	margin-top:10px;
 }
 
 h3 {
 	color:#333333;
-	font-family: Helvetica, sans-serif;
-	font-weight:bold;
+	font-family: 'Oswald', sans-serif;
+	font-weight:normal;
+	font-size:18px;
 }
 
 h4 {
@@ -84,7 +80,7 @@ h5 {
 	color:#142950;
 	font-family: 'Oswald';
 	font-weight:bold;
-	font-size:25px;
+	font-size:20px;
 }
 
 /*#main h5 {
