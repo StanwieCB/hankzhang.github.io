@@ -332,9 +332,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 .box {
 	width:200px; 
 	text-align:center; 
-	font-size: 14px;
+	font-size: 13px;
 	float:left; 
-	margin:0px 15px 0px 0px; 
+	margin:0px 15px 10px 0px; 
 }
 .box img {
 	width:100%;
