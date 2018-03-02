@@ -125,17 +125,21 @@
             <br />
             <!--section start-->
             <div class="section">
-                <h5>Personal</h5>
+                <h5>Miscellaneous</h5>
                 <br>
-                <p>Under Construction
+                <p>Music and art will never make me bored.
+                <br>I have a metal band on which I am both a guitarist and a amateur composer and I studied calligraphy and painting for 8 years. Deep inside they give me the motivation for research.
                 </p>
-                <!--portfolio_item start-->
-                <div class="portfolio_item">
-                    <h3>Under Construction</h3>
-                    <h6>Under Construction</h6>
-                    <p>Under Construction</p>
+                <h3>Gallery</h3>
+                <div class="box">
+                	<img src="images/melb.jpg" width="150px" height="220px"/>Study away in Melbourne
+                </div>
+                <div class="box">
+                	<img src="images/melb.jpg" width="150px" height="220px"/>Study away in Melbourne
                 </div>
                 <!--portfolio_item end-->
+                <div class="clearfix"></div>
+            	<br/><br><br>
             </div>
             <!--section end-->
         </div>
@@ -241,29 +245,6 @@
     </section>
     <!--contents end-->
 </div>
-<!--wrapper end-->
-<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
-$(document).ready(function() {
-    $("a[rel=gallery]").fancybox({
-        'transitionIn': 'none',
-        'transitionOut': 'none',
-        'titlePosition': 'over',
-        'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
-            return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-        }
-    });
-
-
-    $('#bandar').css('display', 'none');
-    var sentParts = window.location.href.toString().split('?');
-    if (sentParts.length > 1)
-        if (sentParts[1] = 'sent') {
-            $('#mydiv').css('display', '');
-            setTimeout(function() {
-                $('#mydiv').fadeOut('fast');
-            }, 3000);
-        }
-});    
+<!--wrapper end-->  
 </body>
 </html>

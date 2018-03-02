@@ -329,6 +329,20 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	text-align:center;
 }
 
+.box {
+	width:200px; 
+	text-align:center; 
+	font-size: 14px;
+	float:left; 
+	margin:0px 15px 0px 0px; 
+}
+.box img {
+	width:100%;
+	border: 5px;
+	border-style:solid;
+ 	border-color:#ced6e0 #ced6e0;
+}
+
 /*===========================*/
 /*===  4.2 Sidebar Panel  ===*/
 /*===========================*/
