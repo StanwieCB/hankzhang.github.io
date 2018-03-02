@@ -47,6 +47,11 @@ color:#000;
 	src: url(Oswald-Regular.ttf);
 }
 
+@font-face {
+	font-family:"Awesome";
+	src: url(FontAwesome.ttf);
+}
+
 h1 {
 	color:#1f3862;
 	font-family: 'Oswald';
@@ -65,9 +70,11 @@ h2 {
 
 h3 {
 	color:#333333;
-	font-family: 'Oswald', sans-serif;
-	font-weight:normal;
-	font-size:18px;
+	font-family: 'Arial';
+	font-weight:bold;
+	font-size:16px;
+	letter-spacing: -0.5px;
+	margin-bottom:8px;
 }
 
 h4 {
@@ -80,21 +87,17 @@ h5 {
 	color:#142950;
 	font-family: 'Oswald';
 	font-weight:bold;
-	font-size:20px;
+	font-size:22px;
 }
 
-/*#main h5 {
-	color:#142950; 
+#main h5 {
 	background: url(../images/section-bg.png) no-repeat;
-	font-family: 'Oswald';
-	text-transform: uppercase;
-	height: 63px;
+	height: 35px;
 	width: 610px;
-	line-height: 63px;
-	font-size:25px;
-	padding-left:10px;
-	margin-bottom:5px;
-}*/
+	line-height: 35px;
+	font-size:22px;
+	margin-bottom:-10px;
+}
 
 
 h6 {
@@ -110,7 +113,7 @@ h6 {
 
 
 .header {
-	
+
 }
 
 #topPanel {
@@ -120,7 +123,6 @@ h6 {
 #topPanelHandle {
 	background-color:#1f3862 !important;
 }
-
 
 /*===============================================*/
 /*===    3. Theme Specific Content Styles     ===*/
@@ -138,13 +140,16 @@ li {
 }
 
 p {
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:Arial, Geneva, sans-serif;
+	font-size: 14。5px
 }
+
 .spec {
 	font-weight: bold;
 }
 .year {
 	color:#545454;
+	font-style: italic;
 }
 
 .tag {

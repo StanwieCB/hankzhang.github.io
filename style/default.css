@@ -72,7 +72,7 @@ h2 {
 h3 {
 	font-size:20px;
 	text-align:left;
-	line-height:25px;
+	line-height:30px;
 	font-weight:bold;
 }
 
@@ -85,7 +85,7 @@ h4 {
 h5 {
 	font-size:18px;
 	text-align:left;
-	line-height:35px;
+	line-height:10px;
 	font-weight:bold;
 	text-indent:0px;
 }
@@ -105,13 +105,7 @@ a {
 a:hover {
 	text-decoration:underline;
 }
-.copyrights{
-	text-indent:-9999px;
-	height:0;
-	line-height:0;
-	font-size:0;
-	overflow:hidden;
-}
+
 p {
 	font-size:15px;
 	text-align:justify;
@@ -300,13 +294,13 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 .work_item {
 	width:100%;
 	float:left;
-	padding:25px 0px 25px 0px;
+	padding:25px 0px 15px 0px;
 }
 
 .portfolio_item {
 	width:100%;
 	float:left;
-	padding:25px 0px 25px 0px;
+	padding:25px 0px 0px 0px;
 }
 
 .year {
