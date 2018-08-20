@@ -16,7 +16,7 @@ CSS File TOC
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color:#e8e9ed;
+	background-color:#f3f4f5;
 	color:#353535;
 }
 
@@ -140,8 +140,8 @@ li {
 }
 
 p {
-	font-family:Arial, Geneva, sans-serif;
-	font-size: 14.5px
+	font-family:'Awesome', Geneva, sans-serif;
+	font-size: 13.5px
 }
 
 .spec {
