@@ -33,6 +33,11 @@ color:#000;
 }
 
 @font-face {
+	font-family:"Roboto";
+	src: url(Arvil_Sans.ttf);
+}
+
+@font-face {
 	font-family:"Humnst777 Blk BT";
 	src: url(Hum777k.ttf);
 }
@@ -64,17 +69,17 @@ h1 {
 h2 {
 	color:#666666;
 	font-family: 'Oswald';
-	font-size:25px;
+	font-size:22px;
 	margin-top:10px;
 }
 
 h3 {
 	color:#333333;
-	font-family: 'Arial';
+	font-family: 'Awesome';
 	font-weight:bold;
-	font-size:16px;
+	font-size:15px;
 	letter-spacing: -0.5px;
-	margin-bottom:8px;
+	margin-bottom:2px;
 }
 
 h4 {
@@ -86,8 +91,8 @@ h5 {
 	
 	color:#142950;
 	font-family: 'Oswald';
-	font-weight:bold;
-	font-size:22px;
+	font-size:18px;
+	letter-spacing: 0.5px;
 }
 
 #main h5 {
@@ -95,7 +100,7 @@ h5 {
 	height: 35px;
 	width: 610px;
 	line-height: 35px;
-	font-size:22px;
+	font-size:18px;
 	margin-bottom:-10px;
 }
 
@@ -136,12 +141,12 @@ h6 {
 }
 
 li {
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:'Awesome', Geneva, sans-serif;
 }
 
 p {
 	font-family:'Awesome', Geneva, sans-serif;
-	font-size: 13.5px
+	font-size: 14px;
 }
 
 .spec {
