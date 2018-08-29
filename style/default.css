@@ -300,7 +300,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	font-size:12px;
 	text-align:left;
 	float:right;
-	padding-top:6px;
+	padding-top:8px;
 }
 
 .tag {
@@ -363,6 +363,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endCo
 	font-size:12px;
 	padding-left:30px;
 	margin-bottom:12px;
+}
+
+.contact_Info_items ul a {
+	padding-top:10px;
 }
 
 .web_icon {

@@ -14,24 +14,6 @@ CSS File TOC
 /*===  1. Common    ===*/
 /*========================*/
 
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color:#f3f4f5;
-	color:#353535;
-}
-
-#wrapper {
-	margin:0 auto;
-}
-
-a {
-	color:#42547b;
-}
-
-a:hover {
-color:#000;
-}
-
 @font-face {
 	font-family:"Roboto";
 	src: url(Arvil_Sans.ttf);
@@ -55,6 +37,26 @@ color:#000;
 @font-face {
 	font-family:"Awesome";
 	src: url(FontAwesome.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#f3f4f5;
+	color:#353535;
+}
+
+#wrapper {
+	margin:0 auto;
+}
+
+a {
+	font-family: 'Awesome';
+	color:#42547b;
+}
+
+a:hover {
+	font-family: 'Awesome';
+	color:#000;
 }
 
 h1 {
@@ -197,5 +199,5 @@ p {
 	background:url(../images/pdf-big.png) no-repeat;
 }
 
-.skills li{background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
+.skills li{font-size: 10px; background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
 .skills li:hover{background-color:#1f3862; color:#fff;}
