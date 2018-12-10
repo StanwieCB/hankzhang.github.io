@@ -413,7 +413,7 @@ p.papertitle {
 #sidebar {
 	width: 260px;
 	float: left;
-	margin-left: 65px;
+	margin-left: 70px;
 	/* Change margin-left:94px; to margin-right:94px; for layout 2 */
 }
 
@@ -432,6 +432,7 @@ p.papertitle {
 	line-height: 18px;
 	font-size: 12px;
 	padding-left: 30px;
+	padding-top:1.5px;
 	margin-bottom: 12px;
 }
 

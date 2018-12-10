@@ -15,11 +15,6 @@ CSS File TOC
 /*========================*/
 
 @font-face {
-	font-family:"Roboto";
-	src: url(Arvil_Sans.ttf);
-}
-
-@font-face {
 	font-family:"Humnst777 Blk BT";
 	src: url(Hum777k.ttf);
 }
@@ -53,12 +48,10 @@ body {
 }
 
 a {
-	font-family: 'Awesome';
 	color:#42547b;
 }
 
 a:hover {
-	font-family: 'Awesome';
 	color:#000;
 }
 
@@ -80,7 +73,6 @@ h2 {
 
 h3 {
 	color:#333333;
-	font-family: 'Awesome';
 	font-weight:bold;
 	font-size:15px;
 	letter-spacing: -0.5px;
