@@ -442,24 +442,18 @@ p.papertitle {
 
 .web_icon {
 	background: url(../images/website.png) no-repeat;
-	height: 21px;
 }
 
 .msg_icon {
 	background: url(../images/msg.png) no-repeat;
 }
 
-.skype_icon {
-	background: url(../images/skype.png) no-repeat;
-	height: 21px;
+.contact_icon {
+	background: url(../images/contect.png) no-repeat;
 }
 
 .twitter_icon {
 	background: url(../images/twitter.png) no-repeat;
-}
-
-.locate_icon {
-	background: url(../images/locate.png) no-repeat;
 }
 
 .pdf_icon {

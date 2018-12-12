@@ -169,14 +169,12 @@ p {
 
 .web_icon {
 	background:url(../images/website-big.png) no-repeat;
-	height:21px;
 }
 .msg_icon {
 	background:url(../images/msg-big.png) no-repeat;
 }
-.skype_icon {
-	background:url(../images/skype-big.png) no-repeat;
-	height:21px;
+.contact_icon {
+	background:url(../images/contact-big.png) no-repeat;
 }
 .twitter_icon {
 	background:url(../images/twitter-big.png) no-repeat;
@@ -186,9 +184,6 @@ p {
 }
 .github_icon {
 	background:url(../images/github-big.png) no-repeat;
-}
-.locate_icon {
-	background:url(../images/locate-big.png) no-repeat;
 }
 
 .pdf_icon {
