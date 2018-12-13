@@ -105,7 +105,8 @@ td {
 }
 
 img {
-	border: none;
+	border:0px solid;
+	border-radius:8px;
 }
 
 p {
@@ -392,16 +393,17 @@ p.papertitle {
 }
 
 .box {
-	width: 45%;
+	width: 47%;
+	height: auto;
 	text-align: center;
 	font-size: 13px;
 	float: left;
-	margin: 0px 15px 5px 5px;
+	margin: 10px 5px 0px 5px;
 }
 
 .box img {
 	width: 100%;
-	border: 2px;
+	border: 0px;
 	border-style: solid;
 	border-color: #ced6e0 #ced6e0;
 }
