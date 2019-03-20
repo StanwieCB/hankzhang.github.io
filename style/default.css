@@ -413,7 +413,7 @@ p.papertitle {
 /*===========================*/
 
 #sidebar {
-	width: 260px;
+	width: 300px;
 	float: left;
 	margin-left: 70px;
 	/* Change margin-left:94px; to margin-right:94px; for layout 2 */
@@ -470,7 +470,7 @@ p.papertitle {
 
 .skills {
 	float: left;
-	width: 130px;
+	width: 140px;
 	padding: 25px 0px 25px 0px;
 }
 
