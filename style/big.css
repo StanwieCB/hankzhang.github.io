@@ -15,180 +15,263 @@ CSS File TOC
 /*========================*/
 
 @font-face {
-	font-family:"Humnst777 Blk BT";
+	font-family: "Humnst777 Blk BT";
 	src: url(Hum777k.ttf);
 }
 
 @font-face {
-	font-family:"Humnst777 BT";
+	font-family: "Humnst777 BT";
 	src: url(Hum777Bd.ttf);
 }
 
 @font-face {
-	font-family:"Oswald";
+	font-family: "Oswald";
 	src: url(Oswald-Regular.ttf);
 }
 
 @font-face {
-	font-family:"Awesome";
+	font-family: "SourceSerifPro-Regular";
+	src: url('SourceSerif/SourceSerifPro-Regular.otf');
+}
+
+@font-face {
+	font-family: "SourceSerifPro-SemiBold";
+	src: url('SourceSerif/SourceSerifPro-SemiBold.otf');
+}
+
+@font-face {
+	font-family: "SourceSansPro-Regular";
+	src: url('SourceSans/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+	font-family: "SourceSansPro-SemiBold";
+	src: url('SourceSans/SourceSansPro-SemiBold.otf');
+}
+
+@font-face {
+	font-family: "SourceSansPro-Bold";
+	src: url('SourceSans/SourceSansPro-Bold.otf');
+}
+
+@font-face {
+	font-family: "SourceSansPro-Black";
+	src: url('SourceSans/SourceSansPro-Black.otf');
+}
+
+@font-face {
+	font-family: "Crimson";
+	src: url('Crimson/Crimson-Roman.otf');
+}
+
+@font-face {
+	font-family: "Awesome";
 	src: url(FontAwesome.ttf);
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	background-color:#333333;
-	color:#333333;
+	background-color: #2e2d29;
+	color: #2e2d29;
 }
 
 #wrapper {
-	margin-left:  auto;
+	margin-left: auto;
 	margin-right: auto;
-	margin-top:   auto;
-	margin-bottom:auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 a {
-	color:#42547b;
+	color: #00505c;
 }
 
 a:hover {
-	color:#000;
+	color: #2e2d29;
 }
 
 h1 {
-	color:#142950;
-	font-family: 'Oswald';
-	text-transform: uppercase;
-	font-weight:bold;
-	font-size:50px;
-	
+	color: #ffffff;
+	font-family: 'SourceSansPro-Regular';
+	font-size: 60px;
+
 }
 
 h2 {
-	color:#333333;
-	font-family: 'Oswald';
-	font-size:22px;
-	margin-top:10px;
+	color: #ffffff;
+	font-family: 'SourceSansPro-Regular';
+	font-size: 30px;
+	text-align: right;
 }
 
 h3 {
-	color:#333333;
-	font-weight:bold;
-	font-size:15px;
-	letter-spacing: -0.5px;
-	margin-bottom:2px;
+	color: #2e2d29;
+	font-family: 'SourceSansPro-Bold';
+	font-size: 16px;
+	line-height: 35px;
 }
 
 h4 {
-	color:#b45a09;
-	font-weight:normal;
+	color: #b45a09;
+	font-weight: normal;
 }
 
 h5 {
-	
-	color:#142950;
-	font-family: 'Oswald';
-	font-size:18px;
-	letter-spacing: 0.5px;
+	color: #8c1515;
+	font-family: 'SourceSansPro-Black';
+	height: 35px;
+	line-height: 35px;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: -22px;
 }
 
-#main h5 {
-	background: url(../images/section-bg.png) no-repeat;
-	height: 35px;
-	width: 610px;
-	line-height: 35px;
-	font-size:18px;
-	margin-bottom:-10px;
+#sidebar h5 {
+	font-family: 'SourceSansPro-Black';
+	line-height: 20px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: -22px;
 }
 
 
 h6 {
-	font-family:Tahoma, Geneva, sans-serif;
-	color:#545454;
-	font-weight:normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #545454;
+	font-weight: normal;
 }
 
+hr {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
 
 /*========================*/
 /*===  2. Header    ===*/
 /*========================*/
 
 
-.header {
-
-}
+.header {}
 
 #topPanel {
 	background-color: #1f3862 !important;
-	border-bottom:1px solid #000;
+	border-bottom: 1px solid #000;
 }
+
 #topPanelHandle {
-	background-color:#1f3862 !important;
+	background-color: #1f3862 !important;
 }
 
 /*===============================================*/
 /*===    3. Theme Specific Content Styles     ===*/
 /*===============================================*/
 
-.education_items h6, .references h6 {
-	color:#000;
-}
-.education_items p {
-	color:#545454;
-}
-
 li {
-	font-family:'Awesome', Geneva, sans-serif;
+	font-family: 'Crimson',
+		Geneva,
+		sans-serif;
+	color: #2e2d29;
 }
 
 p {
-	font-family:'Awesome', Geneva, sans-serif;
-	font-size: 14px;
-	letter-spacing: -0.3px;
+	font-family: 'Crimson',
+		Geneva,
+		sans-serif;
+	font-size: 16px;
+	color: #2e2d29;
+}
+
+#sidebar p {
+	font-family: 'Crimson',
+		Geneva,
+		sans-serif;
+	font-size: 15px;
+	color: #2e2d29;
+}
+
+.contact_box a {
+	font-family: 'SourceSansPro-Black',
+		Geneva,
+		sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
 }
 
 .spec {
-	font-weight: bold;
+	font-weight: 600;
 }
+
+.edu {
+	color: #2e2d29;
+	line-height: 20px;
+	text-align: left;
+	float: left;
+	font-size: 16px;
+	font-family: 'Crimson';
+}
+
 .year {
-	color:#545454;
-	font-style: italic;
+	color: #2e2d29;
+	line-height: 35px;
+	font-size: 16px;
+	font-family: 'SourceSansPro-SemiBold';
 }
 
 .tag {
-	color:#fff;
-	background:#5fb053;
-	font-family:Tahoma, Geneva, sans-serif;
-	background:url(../images/tag-big.png) no-repeat !important;
+	color: #fff;
+	background: #5fb053;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url(../images/tag-big.png) no-repeat !important;
 }
+
 .winner_tag {
-	color:#FFF;
-	font-family:Tahoma, Geneva, sans-serif;
-	background:url(../images/winner-big.png) no-repeat !important;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url(../images/winner-big.png) no-repeat !important;
 }
 
 .web_icon {
-	background:url(../images/website-big.png) no-repeat;
+	background: url(../images/website-big.png) no-repeat;
 }
+
 .msg_icon {
-	background:url(../images/msg-big.png) no-repeat;
+	background: url(../images/msg-big.png) no-repeat;
 }
+
 .contact_icon {
-	background:url(../images/contact-big.png) no-repeat;
+	background: url(../images/contact-big.png) no-repeat;
 }
+
 .twitter_icon {
-	background:url(../images/twitter-big.png) no-repeat;
+	background: url(../images/twitter-big.png) no-repeat;
 }
+
 .ins_icon {
-	background:url(../images/ins-big.png) no-repeat;
+	background: url(../images/ins-big.png) no-repeat;
 }
+
 .github_icon {
-	background:url(../images/github-big.png) no-repeat;
+	background: url(../images/github-big.png) no-repeat;
 }
 
 .pdf_icon {
-	background:url(../images/pdf-big.png) no-repeat;
+	background: url(../images/pdf-big.png) no-repeat;
 }
 
-.skills li{font-size: 9px; background-color:#caced7; padding:0px 5px !important; margin:4px 0px !important; color: #333; }
-.skills li:hover{background-color:#1f3862; color:#fff;}
+.skills li {
+	font-size: 13px;
+	background-color: #dad7cb;
+	padding: 0px 5px !important;
+	margin: 4px 0px !important;
+	color: #2e2d29;
+}
+
+.skills li:hover {
+	background-color: #00505c;
+	color: #fff;
+}
